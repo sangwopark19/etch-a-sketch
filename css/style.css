@@ -1,9 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 .container {
   display: flex;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 500px;
 }
 .block {
-  width: 100px;
-  height: 100px;
-  background-color: black;
-  margin: 5px;
+  background-color: white;
+  border-collapse: collapse;
+  border: solid 1px black;
+  flex: 1 1 6.25%;
+  aspect-ratio: 1/ 1;
 }

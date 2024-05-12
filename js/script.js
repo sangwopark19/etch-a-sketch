@@ -9,4 +9,4 @@ function createGrid(container, count) {
   }
 }
 
-createGrid(container, 16);
+createGrid(container, 256);
