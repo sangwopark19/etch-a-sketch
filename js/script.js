@@ -5,8 +5,16 @@ function createGrid(container, count) {
     const div = document.createElement("div");
     div.setAttribute("class", "block");
     div.setAttribute("id", i);
+    // div.classList.add("pixelated");
     container.appendChild(div);
   }
 }
 
 createGrid(container, 256);
+
+const allGrid = document.querySelectorAll(".block");
+allGrid.forEach((grid) => {
+  grid.addEventListener("mouseover", () => {
+    grid.classList.add("pixelated");
+  });
+});

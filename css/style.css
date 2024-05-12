@@ -11,8 +11,12 @@
 }
 .block {
   background-color: white;
-  border-collapse: collapse;
-  border: solid 1px black;
+  border: solid 0.5px black;
   flex: 1 1 6.25%;
   aspect-ratio: 1/ 1;
+}
+
+.pixelated {
+  background-color: black;
+  border-color: white;
 }
